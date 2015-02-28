@@ -1,9 +1,9 @@
-;;; rubogun-test.el ---                              -*- lexical-binding: t; -*-
+;;; ruby-goodies-test.el ---                              -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2015  Iulian Costan
 
 ;; Author: Iulian Costan <syk@Macbook.local>
-;; Keywords: rubogun ert
+;; Keywords: ruby-goodies ert
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -23,15 +23,22 @@
 ;; 
 
 ;;; Code:
-(when (require 'undercover nil t)
-  (undercover "rubygun.el"))
 
-(require 'rubygun nil t)
+(require 'ruby-goodies nil t)
 
-(ert-deftest hello-world ()
-  :tags '(rubogun)
+(defun with-text-value (txt fn &rest args)
+  (with-temp-buffer
+    (insert txt)
+    (apply fn args)))
+
+
+(ert-deftest ruby-goodies-hashie-test ()
   (should (equal (+ 1 1)
-		 2)))
+		 2))
+  (should (equal (with-text-value ":a => b" #'ruby-goodies-hashie)
+  		 "abcd"))
+  )
 
-(provide 'rubogun-test)
-;;; rubogun-test.el ends here
+(provide 'ruby-goodies-test)
+
+;;; ruby-goodies-test.el ends here

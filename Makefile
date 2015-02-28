@@ -1,18 +1,17 @@
+CASK ?= cask
 EMACS ?= emacs
-CASK_EXEC ?= cask exec
 
 all: test
 
-test: clean-elc
-	${MAKE} unit
+test: unit ecukes
 
 unit:
-	${CASK_EXEC} ${EMACS} -Q -batch -l rubogun-test.el -l rubogun.el --eval "(ert t)"
+	${CASK} exec ert-runner
 
-compile:
-	${CASK_EXEC} ${EMACS} -Q -batch -f batch-byte-compile rubogun.el
+ecukes:
+	${CASK} exec ecukes
 
-clean-elc:
-	rm -f f.elc
+install:
+	${CASK} install
 
-.PHONY:	all test
+.PHONY:	all test unit ecukes install
