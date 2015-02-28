@@ -1,4 +1,4 @@
-;;; ruby-goodies.el --- Collection of functions for Rubocop -*- lexical-binding: t; -*-
+;;; ruby-goodies.el --- Collection of functions for Ruby -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2015  Iulian Costan
 
@@ -27,7 +27,7 @@
 
 ;;; Commentary:
 
-;; "Collection of handy functions for Rubocop."
+;; "Collection of handy functions for Ruby."
 
 
 ;;; Code:
@@ -51,7 +51,7 @@
     
 ;;;###autoload
 (define-minor-mode ruby-goodies-mode
-  "Collection of handy functions for Rubocop."
+  "Collection of handy functions for Ruby."
   :init-value nil
   :lighter " rt"
   :keymap ruby-goodies-mode-map)
