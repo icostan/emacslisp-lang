@@ -1,4 +1,5 @@
-# rubogun [![Build Status](https://travis-ci.org/iuliancostan/rubogun.svg)](https://travis-ci.org/iuliancostan/rubogun) [![Coverage Status](https://coveralls.io/repos/iuliancostan/rubogun/badge.svg)](https://coveralls.io/r/iuliancostan/rubogun)
+# Ruby-goodies [![Build Status](https://travis-ci.org/iuliancostan/ruby-goodies.svg?branch=master)](https://travis-ci.org/iuliancostan/ruby-goodies) #
+
 Emacs goodies for Ruby.
 
 # Development
