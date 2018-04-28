@@ -1,4 +1,4 @@
-# Ruby-goodies [![Build Status](https://travis-ci.org/iuliancostan/ruby-goodies.svg?branch=master)](https://travis-ci.org/iuliancostan/ruby-goodies) #
+# Ruby-goodies [![Build Status](https://travis-ci.org/icostan/ruby-goodies.svg?branch=master)](https://travis-ci.org/icostan/ruby-goodies) #
 
 Emacs goodies for Ruby.
 
