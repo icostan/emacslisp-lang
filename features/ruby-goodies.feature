@@ -4,4 +4,4 @@ Feature: Ruby-Goodies
 
   Scenario: Start automatically when starting ruby-mode
     Given I turn on ruby-goodies-mode
-    # Then ruby-goodies-mode should be active
+    Then ruby-goodies-mode should be active

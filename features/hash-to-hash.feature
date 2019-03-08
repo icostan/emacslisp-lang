@@ -8,9 +8,8 @@ Feature: Hash to hash
     And I press "C-c r h"
     Then I should see "a: true"
 
-  Scenario: Use the Ruby 1.9 hash literal syntax when your hash keys are symbols. 
+  Scenario: Use the Ruby 1.9 hash literal syntax when your hash keys are symbols.
     When I insert "hash = { :one => 1, :two => 2, :three => 3 }"
     And I turn on ruby-mode
     And I press "C-c r h"
-    # Then I should see "hash = { one: 1, two: 2, three: 3 }"
-
+    Then I should see "hash = { one: 1, two: 2, three: 3 }"
