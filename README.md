@@ -1,8 +1,6 @@
-# Ruby-goodies [![Build Status](https://travis-ci.org/icostan/ruby-goodies.svg?branch=master)](https://travis-ci.org/icostan/ruby-goodies) #
+# Emacslisp lang [![Build Status](https://travis-ci.org/icostan/emacslisp-lang.svg?branch=master)](https://travis-ci.org/icostan/emacslisp-lang) #
 
-Emacs goodies for Ruby.
-
-# Development
+Emacs Lisp playground
 
 # Test
 ```shell
