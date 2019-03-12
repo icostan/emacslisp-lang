@@ -1,5 +1,5 @@
 (when (require 'undercover nil t)
-  (undercover "ruby-goodies.el"))
+  (undercover "*.el" (:exclude "*-test.el")))
 
 (require 'ruby-goodies nil t)
 
