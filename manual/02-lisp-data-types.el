@@ -31,3 +31,22 @@
 (subrp (symbol-function 'car))
 
 (type-of [1])
+
+
+(point-marker)
+(selected-window)
+(selected-frame)
+(get-device-terminal nil)
+(current-frame-configuration)
+(current-window-configuration)
+(process-list)
+(all-threads)
+
+(#1=(a) b #1#)
+((a) b (a))
+
+(eq 'foo 'foo)
+(eq (make-symbol "foo") 'foo)
+
+(equal [(1 2) 3] [(1 2) 3])
+(eq [(1 2) 3] [(1 2) 3])

@@ -1,5 +1,5 @@
 * TODOs
-** TODO Emacs Lisp manual
+** TODO Emacs Lisp reference manual [14%]
    SCHEDULED: <2019-04-19 Fri +1w>
    :PROPERTIES:
    :LAST_REPEAT: [2019-04-12 Fri 18:04]
@@ -9,7 +9,7 @@
    CLOCK: [2019-04-12 Fri 14:13]--[2019-04-12 Fri 18:03] =>  3:50
    :END:
    - [X] Introduction
-   - [ ] Lisp Data Types
+   - [X] Lisp Data Types
    - [ ] Numbers
    - [ ] Strings and Characters
    - [ ] Lists
