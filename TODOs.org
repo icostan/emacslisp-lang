@@ -1,6 +1,5 @@
 * TODOs
 ** TODO Emacs Lisp reference manual [14%]
-   SCHEDULED: <2019-04-19 Fri +1w>
    :PROPERTIES:
    :LAST_REPEAT: [2019-04-12 Fri 18:04]
    :END:
