@@ -8,7 +8,7 @@ before_install:
   - export PATH="$HOME/.cask/bin:$PATH"
   - cask
 env:
-  - EVM_EMACS=emacs-26.1-travis
+  - EVM_EMACS=emacs-26.3-travis
   - EVM_EMACS=emacs-25.3-travis
 script:
   - emacs --version
