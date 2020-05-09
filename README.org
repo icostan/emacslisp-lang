@@ -1,0 +1,19 @@
+* Emacslisp lang
+
+[![Build Status](https://travis-ci.org/icostan/emacslisp-lang.svg?branch=master)](https://travis-ci.org/icostan/emacslisp-lang)
+[![Coverage Status](https://coveralls.io/repos/github/icostan/emacslisp-lang/badge.svg?branch=master)](https://coveralls.io/github/icostan/emacslisp-lang?branch=master)
+
+[[https://travis-ci.org/icostan/emacslisp-lang.svg?branch=master][Build Status]]
+
+Emacs Lisp playground
+
+** [[intro-elisp][An Introduction to Programming in Emacs Lisp]]
+
+** [[manual][Emacs Lisp Reference Manual]]
+
+
+** Test
+
+#+begin_src sh
+make test
+#+end_src

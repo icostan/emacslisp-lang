@@ -1,0 +1,25 @@
+* Emacs Listp Reference Manual
+
+** Table of contents
+*** 18.2 Edebug
+    Edebug is a source-level debugger
+    1. instrument the form for debug
+    2. /edebug-eval/
+    3. /n/ - next stop point, /t/ - trace(pause 1s) at each stop point, /g/ - go until next break point
+    4. /f/ - forward one sexp, /i/ - step in, /o/ - step out
+    5. /d/ - display backtrace, /q/ - quit, /?/ - help
+    6. /b/, /u/ - set/unset breaks at stop point, /edebug-global-break-condition/ - global, /(edebug)/ - source level
+    7. customize /edebug-on-error/ variable
+    8. /v/ - view outside window, ???
+    9. /e/ - eval exp outside edebug content
+    10. /E/ switch to eval list buffer
+    11. customize /edebug-print-level/
+    12. customize /edebug-trace/ to display stack trace
+    13. call /(edebug-display-freq-count)/ to show coverage info
+    14. before entering /edebug/ it saves window configuration: buffer, point, window, etc
+    15. macros needs special instrumentation because there is no way to tell which sexp is a form to eval
+    16. all options to customize, /edebug-initial-mode/ for operation mode
+*** 18.3 Syntax errors
+    The error ‘End of file during parsing’ and  ‘Invalid read syntax: ")"’
+    1. excess open - end of file and /(backward-up-list)/ and /(indent-pp-sexp)/ to check indenting
+    2. excess close - beginning of file and the same as above

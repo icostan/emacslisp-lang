@@ -1,0 +1,7 @@
+* An Introduction to Programming in Emacs Lisp
+
+** Table of contents
+*** 17. Debugging
+    - built-in /(debug)/ exp
+    - /(edebug)/ - source level debugger
+    - vars: /debug-on-entry/
