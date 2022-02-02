@@ -7,17 +7,21 @@
    :LOGBOOK:
    CLOCK: [2019-04-12 Fri 14:13]--[2019-04-12 Fri 18:03] =>  3:50
    :END:
-   - [X] Introduction
-   - [X] Lisp Data Types
-   - [ ] Numbers
-   - [ ] Strings and Characters
-   - [ ] Lists
-   - [ ] Sequences Arrays Vectors
-   - [ ] Records
-   - [ ] Hash Tables
-   - [ ] Symbols
-   - [ ] Evaluation
-   - [ ] Control Structures
-   - [ ] Variables
-   - [ ] Functions
-   - [ ] Macros
+   - [X] 1 Introduction
+   - [X] 2 Lisp Data Types
+   - [ ] 3 Numbers
+   - [ ] 4 Strings and Characters
+   - [ ] 5 Lists
+   - [ ] 6 Sequences Arrays Vectors
+   - [ ] 7 Records
+   - [ ] 8 Hash Tables
+   - [ ] 9 Symbols
+   - [ ] 10 Evaluation
+   - [ ] 11 Control Structures
+   - [ ] 12 Variables
+   - [ ] 13 Functions
+   - [ ] 14 Macros
+   - [ ] 20.6 Minibuffers - Completion
+   - [ ] 22 Keymaps
+   - [ ] 27 Buffers
+   - [ ] 41 Preparing Lisp code for distribution
